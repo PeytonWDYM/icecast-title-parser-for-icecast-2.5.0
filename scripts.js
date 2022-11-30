@@ -18,5 +18,5 @@ function parseMetadata() {
     xhttp.send();
   }
 
-// parse icecast metadata every 1 second
+// parse icecast metadata every 10 seconds
 setInterval(parseMetadata, 10000);
